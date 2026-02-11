@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # architecture of os and kernel version
 architecture=$(uname -a)
 
