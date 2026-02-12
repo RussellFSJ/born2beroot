@@ -16,6 +16,18 @@ Born2beroot serves as an introductory project to virtualisation. I will be creat
 
 - Services Installed: Configured SSH for secure remote access, enabled UFW firewall, and wrote a monitoring script to display system information at boot.
 
+###  apt vs aptitude
+
+| Feature | `apt` | `aptitude` | 
+|----------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------| 
+| **Type** | Command-line tool (part of the APT suite) | Front-end for APT (CLI + optional ncurses UI) | 
+| **Default availability** | Installed by default on Debian/Ubuntu | Not installed by default (must be installed separately) | 
+| **Interface** | Simple commands (`apt install`, `apt remove`, `apt update`) | Offers both command-line and interactive text UI | 
+| **Dependency handling** | Installs/removes packages with dependencies automatically | More advanced dependency resolution; suggests multiple solutions if conflicts arise | 
+| **Ease of use** | Designed to be user-friendly, with consistent syntax | More powerful but less commonly used; syntax can differ slightly | 
+| **Recommended usage**| Everyday package management on Debian/Ubuntu | Advanced package management, troubleshooting dependency issues | 
+| **Popularity** | Widely used and documented (Ubuntu/Debian guides default to `apt`) | Less common today; Debian used to recommend it but shifted toward `apt` |
+
 ### Operating System (OS)
 
 #### Debian vs Rocky Linux
