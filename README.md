@@ -101,4 +101,7 @@ sudo ufw status
 ## Resources
 
 - [vmware](https://www.vmware.com/topics/virtual-machine)
+- [systemctl](https://man7.org/linux/man-pages/man1/systemctl.1.html)
+- [UFW Essentials](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+- [hostnamectl](https://man7.org/linux/man-pages/man1/hostnamectl.1.html)
 - [crontab guru](https://crontab.guru/)
