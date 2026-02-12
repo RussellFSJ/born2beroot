@@ -72,19 +72,25 @@ Both softwares are freat for setting up the VM for this project, but I picked Vi
 
 To view partitions:
 
+```
 lsblk
+```
 
 ### Password Policies
 
 To view password policies:
 
+```
 sudo chage -l <user>
+```
 
 ### Groups 
 
 To view user(s) in group:
 
+```
 getent group <group name>
+```
 
 ### Services
 
@@ -92,11 +98,15 @@ To view services:
 
 #### SSH
 
+```
 sudo systemctl status ssh
+```
 
 #### Firewall
 
+```
 sudo ufw status
+```
 
 ## Resources
 
